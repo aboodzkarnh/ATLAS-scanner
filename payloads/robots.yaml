@@ -1,0 +1,6 @@
+name: "Sensitive Path in robots.txt"
+severity: "Low"
+paths:
+  - "/robots.txt"
+payloads: [""]
+detect_regex: "Disallow: /admin|Disallow: /backup|Disallow: /config"

@@ -1,0 +1,7 @@
+name: "Insecure Direct Object Reference"
+severity: "Medium"
+paths:
+  - "/bank/showTransactions?accountId=1"
+  - "/bank/accountSummary?acctId=1"
+payloads: ["1", "2"]
+detect_regex: "(?i)(Account.*\\d{4})"

@@ -1,0 +1,8 @@
+name: "Open Redirect"
+severity: "Low"
+paths:
+  - "/bank/redirect.jsp?url={PAYLOAD}"
+  - "/logout.jsp?goto={PAYLOAD}"
+  - "/exit.jsp?target={PAYLOAD}"
+payloads: ["https://evil.com", "//evil.com"]
+detect_regex: "(?i)Location:.*evil\\.com"

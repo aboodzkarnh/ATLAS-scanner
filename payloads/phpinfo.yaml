@@ -1,0 +1,7 @@
+name: "PHP Info Disclosure"
+severity: "Low"
+paths:
+  - "/phpinfo.php"
+  - "/info.php"
+payloads: [""]
+detect_regex: "PHP Version|phpinfo\\(\\)"

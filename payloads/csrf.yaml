@@ -1,0 +1,7 @@
+name: "Cross-Site Request Forgery"
+severity: "Medium"
+paths:
+  - "/bank/main.jsp"
+  - "/bank/transfer.jsp"
+payloads: [""]
+detect_regex: "<form[^>]+method=[\"']post[^>]+>(?:(?!csrf|token).)*</form>"

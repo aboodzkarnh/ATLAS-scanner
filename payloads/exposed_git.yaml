@@ -1,0 +1,7 @@
+name: "Exposed .git Directory"
+severity: "High"
+paths:
+  - "/.git/HEAD"
+  - "/.git/config"
+payloads: [""]
+detect_regex: "ref: refs/heads/|\\[core\\]"

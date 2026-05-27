@@ -1,0 +1,8 @@
+name: "Cross-Site Scripting (XSS)"
+severity: "Medium"
+paths:
+  - "/search.jsp?query={PAYLOAD}"
+  - "/sendFeedback?comments={PAYLOAD}"
+  - "/bank/main.jsp?message={PAYLOAD}"
+payloads: ["<script>alert('XSS')</script>", "<img src=x onerror=alert(1)>"]
+detect_regex: "(?i)(<script>alert\\('XSS'\\)|onerror=alert\\(1\\))"

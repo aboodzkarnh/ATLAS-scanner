@@ -1,0 +1,7 @@
+name: "Environment File Leak"
+severity: "High"
+paths:
+  - "/.env"
+  - "/.env.backup"
+payloads: [""]
+detect_regex: "DB_PASSWORD|APP_KEY|SECRET_KEY"

@@ -1,0 +1,8 @@
+name: "Command Injection"
+severity: "Critical"
+paths:
+  - "/ping.php?ip={PAYLOAD}"
+  - "/cmd.php?cmd={PAYLOAD}"
+  - "/exec.php?command={PAYLOAD}"
+payloads: [";id", "|id", "$(id)"]
+detect_regex: "uid=\\d+\\(\\w+\\) gid=\\d+\\(\\w+\\)"

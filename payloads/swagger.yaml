@@ -1,0 +1,7 @@
+name: "Swagger UI Exposure"
+severity: "Medium"
+paths:
+  - "/swagger-ui.html"
+  - "/api-docs"
+payloads: [""]
+detect_regex: "swagger-ui|Swagger UI|api-docs"

@@ -1,0 +1,6 @@
+name: "Test Payload"
+severity: "Info"
+paths:
+  - "/"
+payloads: ["test"]
+detect_regex: "html"

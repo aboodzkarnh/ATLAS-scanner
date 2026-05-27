@@ -1,0 +1,9 @@
+name: "SQL Injection"
+severity: "Critical"
+paths:
+  - "/login.jsp?username={PAYLOAD}&password=test"
+  - "/search.jsp?query={PAYLOAD}"
+  - "/bank/showTransactions?accountId={PAYLOAD}"
+  - "/subscribe.jsp?email={PAYLOAD}"
+payloads: ["'", "' OR '1'='1", "\" OR \"1\"=\"1", "' OR 1=1--"]
+detect_regex: "(?i)(SQL syntax.*MySQL|mysql_fetch_array|error in your SQL|unclosed quotation mark|ORA-[0-9]{5}|SqlException|Invalid username or password)"
