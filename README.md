@@ -30,14 +30,12 @@ After the trial period, a license key is required to continue. License keys are 
 | Pro | $99 | $799 | Unlimited |
 | Enterprise | $199 | $1,599 | Unlimited + Custom |
 
-## Quick Start
+## Quick Start(to DOWNLOAD)
 
 ```bash
 wget https://github.com/aboodzkarnh/ATLAS-scanner/raw/main/atlas-scanner-linux
 chmod +x atlas-scanner-linux
 ./atlas-scanner-linux
-
-
 
 
 Enter your target URL when prompted. Reports are saved in the reports/ folder.
@@ -57,3 +55,5 @@ Telegram: @progragamer2026
 
 License
 This software is proprietary. The Community Edition is provided free of charge for trial purposes. Continued use requires a valid license. Redistribution of license keys is strictly prohibited.
+
+Built with Go | Designed for Security Professionals
