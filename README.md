@@ -48,3 +48,4 @@ wget https://github.com/aboodzkarnh/ATLAS-scanner/raw/main/atlas-scanner-linux -
 
 curl -L https://github.com/aboodzkarnh/ATLAS-scanner/raw/main/atlas-scanner-macos -o atlas-scanner && chmod +x atlas-scanner && ./atlas-scanner
 
+Invoke-WebRequest -Uri "https://github.com/aboodzkarnh/ATLAS-scanner/raw/main/atlas-scanner-windows.exe" -OutFile "atlas-scanner.exe"; .\atlas-scanner.exe
