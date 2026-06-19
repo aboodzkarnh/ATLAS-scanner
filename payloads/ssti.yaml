@@ -1,0 +1,7 @@
+name: "Server-Side Template Injection"
+severity: "High"
+paths:
+  - "/profile?name={PAYLOAD}"
+  - "/hello?name={PAYLOAD}"
+payloads: ["{{7*7}}", "${7*7}", "${{7*7}}"]
+detect_regex: "\\b49\\b"

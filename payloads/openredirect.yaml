@@ -1,0 +1,7 @@
+name: "Open Redirect"
+severity: "Low"
+paths:
+  - "/redirect.php?url={PAYLOAD}"
+  - "/goto.jsp?link={PAYLOAD}"
+payloads: ["https://evil.com", "//evil.com"]
+detect_regex: "Location:.*evil\\.com"

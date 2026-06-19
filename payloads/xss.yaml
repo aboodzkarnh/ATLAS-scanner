@@ -1,0 +1,8 @@
+name: "Cross-Site Scripting (XSS)"
+severity: "Medium"
+paths:
+  - "/search.php?q={PAYLOAD}"
+  - "/guestbook.php?name={PAYLOAD}"
+  - "/search.jsp?query={PAYLOAD}"
+payloads: ["<script>alert('XSS')</script>", "<img src=x onerror=alert(1)>"]
+detect_regex: "alert\\('XSS'\\)|onerror=alert\\(1\\)"

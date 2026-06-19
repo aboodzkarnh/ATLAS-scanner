@@ -1,0 +1,13 @@
+stealth:
+  random_agent: true
+  delay_min: 500
+  delay_max: 2000
+  timeout: 10
+scan:
+  threads: 15
+  max_depth: 2
+database:
+  type: "sqlite"
+  path: "atlas_results.db"
+openai:
+  api_key: "sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
