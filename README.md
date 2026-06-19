@@ -41,3 +41,7 @@ Built with Go | Trusted by Security Professionals Worldwide
 EOF
 
 git add README.md && git commit -m "Professional enterprise README" && git push origin main && echo "✅ README updated successfully!"
+
+### Linux (One-command install)
+```bash
+wget https://github.com/aboodzkarnh/ATLAS-scanner/raw/main/atlas-scanner-linux -O atlas-scanner && chmod +x atlas-scanner && ./atlas-scanner
