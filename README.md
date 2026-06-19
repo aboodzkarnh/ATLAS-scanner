@@ -44,5 +44,8 @@ git add README.md && git commit -m "Professional enterprise README" && git push 
 
 ### Linux (One-command install)
 ```bash
-wget https://github.com/aboodzkarnh/ATLAS-scanner/raw/main/atlas-scanner-linux -O atlas-scanner && chmod +x atlas-scanner && ./atlas-scanner
 
+git clone https://github.com/aboodzkarnh/ATLAS-scanner.git
+cd ATLAS-scanner
+chmod +x atlas-scanner-linux
+./atlas-scanner-linux
