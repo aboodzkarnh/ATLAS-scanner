@@ -1,0 +1,41 @@
+{
+  "tool": "ATLAS Scanner V6 ELITE",
+  "version": "6.0",
+  "target_url": "https://www.anthropic.com/",
+  "scan_time": "2026-06-10T17:21:55-04:00",
+  "duration": "32.705µs",
+  "findings": [
+    {
+      "url": "http://www.anthropic.com:80",
+      "payload": "WAF Detected: Cloudflare",
+      "type": "WAF/IPS Detection",
+      "severity": "Info",
+      "description": "A Web Application Firewall was identified. While protective, misconfiguration may allow bypass.",
+      "remediation": "Regularly update WAF rules and monitor logs for bypass attempts."
+    },
+    {
+      "url": "https://www.anthropic.com:443",
+      "payload": "WAF Detected: Cloudflare",
+      "type": "WAF/IPS Detection",
+      "severity": "Info",
+      "description": "A Web Application Firewall was identified. While protective, misconfiguration may allow bypass.",
+      "remediation": "Regularly update WAF rules and monitor logs for bypass attempts."
+    },
+    {
+      "url": "http://www.anthropic.com:8080",
+      "payload": "WAF Detected: Cloudflare",
+      "type": "WAF/IPS Detection",
+      "severity": "Info",
+      "description": "A Web Application Firewall was identified. While protective, misconfiguration may allow bypass.",
+      "remediation": "Regularly update WAF rules and monitor logs for bypass attempts."
+    },
+    {
+      "url": "https://www.anthropic.com:8443",
+      "payload": "WAF Detected: Cloudflare",
+      "type": "WAF/IPS Detection",
+      "severity": "Info",
+      "description": "A Web Application Firewall was identified. While protective, misconfiguration may allow bypass.",
+      "remediation": "Regularly update WAF rules and monitor logs for bypass attempts."
+    }
+  ]
+}
