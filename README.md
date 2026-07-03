@@ -1,59 +1,73 @@
-# Atlas Scanner V6 ELITE
+# Atlas Scanner V6.5 ELITE
 
-**Advanced Web Vulnerability Scanner | 250+ Vulnerability Signatures | WAF Analysis | Exploit Lookup**
+**Enterprise-Grade Web Vulnerability Scanner | Built for Professional Security Teams**
 
-Atlas Scanner is a high-performance, stealthy web vulnerability scanner written in Go. It detects a wide range of vulnerabilities, analyzes Web Application Firewalls, and generates detailed professional reports suitable for client delivery.
+[![Platform](https://img.shields.io/badge/Platform-Linux%20%7C%20macOS%20%7C%20Windows-green.svg)]()
+[![Go](https://img.shields.io/badge/Built%20with-Go-00ADD8.svg)](https://go.dev)
+[![Version](https://img.shields.io/badge/Version-6.5%20ELITE-blue.svg)]()
+[![License](https://img.shields.io/badge/License-Commercial-red.svg)]()
 
-## Key Features
+---
 
-- **250+ Vulnerability Signatures** – SQL Injection, XSS, LFI/RFI, SSTI, Command Injection, Open Redirect, CSRF, XXE, IDOR, Directory Traversal, Server Misconfigurations, Exposed Panels, and more
-- **WAF/IPS Analysis** – Detects Cloudflare, AWS WAF, ModSecurity, and others with actionable bypass recommendations
-- **Exploit Lookup** – Automatically searches Exploit-DB and NVD for related exploits upon each finding
-- **Stealth Mode** – Random User-Agent rotation, randomized request delays, minimal digital footprint
-- **Professional Reports** – Includes vulnerability description, severity rating, and step-by-step remediation for each finding
-- **Admin Panel Discovery** – Automatically detects hidden administrative interfaces
-- **Extensible YAML System** – Add unlimited vulnerability templates without modifying source code
-- **Concurrent Scanning** – Goroutine-powered parallel scanning for maximum speed
-- **Machine-Locked Licensing** – Secure per-device licensing with trial mode
+## 🛡️ Why Atlas Scanner?
 
-## Free Trial & Licensing
+Atlas Scanner is not just another vulnerability scanner. It is a **complete enterprise security platform** engineered for accuracy, speed, and reliability. Built in Go for maximum performance, it delivers professional-grade results that security consultants, penetration testers, and enterprises can trust.
 
-The Community Edition includes **3 full-featured scans** at no cost. All vulnerability signatures, WAF analysis, and exploit lookup capabilities are fully functional during the trial.
+**250+ vulnerability signatures. WAF analysis. Smart crawling. Authenticated scanning. REST API. Professional reports. All in one binary. No dependencies.**
 
-After the trial period, a license key is required to continue. License keys are machine-locked and non-transferable.
+---
 
-### Subscription Plans
+## ✨ Key Features
 
-| Plan | Monthly | Annual | Scans |
-|------|---------|--------|-------|
-| Basic | $49 | $399 | 50/month |
-| Pro | $99 | $799 | Unlimited |
-| Enterprise | $199 | $1,599 | Unlimited + Custom |
+### 🔍 Comprehensive Vulnerability Detection
+- **250+ signatures** covering OWASP Top 10 and beyond
+- SQL Injection (Error-based, Blind, Time-based)
+- Cross-Site Scripting (Reflected, Stored, DOM-based)
+- Local/Remote File Inclusion (LFI/RFI)
+- Server-Side Template Injection (SSTI)
+- Command Injection
+- Cross-Site Request Forgery (CSRF)
+- XML External Entity (XXE)
+- Insecure Direct Object Reference (IDOR)
+- Directory Traversal
+- Open Redirect
+- Server Misconfigurations
+- Exposed Admin Panels
+- Environment File Leaks
+- And many more...
 
-## Quick Start(to DOWNLOAD)
+### 🧠 Intelligent Scanning Engine
+- **Smart Crawler**: Automatically discovers all pages, endpoints, and forms on target websites
+- **Authenticated Scanning**: Login to protected areas and scan behind authentication
+- **Confidence Scoring**: Multi-factor analysis filters out false positives before reporting
+- **WAF/IPS Detection & Bypass**: Identifies Cloudflare, AWS WAF, ModSecurity, and provides actionable bypass recommendations
 
+### 📊 Enterprise Reporting & Analytics
+- **Professional Reports**: JSON, TXT, Markdown, and HTML formats
+- **CVSS 3.1 Scoring**: Industry-standard severity ratings on every finding
+- **Risk Scoring Engine**: Automatic risk assessment for assets
+- **Asset Inventory**: Track all scanned targets with historical data
+- **Web Dashboard**: Visual HTML dashboard with trends and statistics
+- **Exploit Lookup**: Automatic integration with Exploit-DB and NVD for relevant exploits
+
+### ⚡ Performance & Infrastructure
+- **Concurrent Scanning**: Goroutine-powered parallel scanning
+- **Smart Port Scanner**: Automatic detection of web services on 9 common ports
+- **Subdomain Discovery**: Certificate transparency log analysis via crt.sh
+- **Technology Fingerprinting**: Identifies WordPress, PHP, Nginx, Apache, Django, and more
+- **Origin IP Detection**: Helps bypass CDN/WAF by finding the real server IP
+- **Batch Scanning**: Process hundreds of targets from a simple text file
+
+### 🔒 Enterprise Security
+- **Machine-Locked Licensing**: Licenses are bound to hardware, preventing unauthorized sharing
+- **Multi-Tenant Ready**: Architecture supports isolated databases per organization
+- **REST API**: Fully documented API for integration into CI/CD pipelines
+- **OOB Integration**: Ready for Out-of-Band vulnerability detection via Interactsh
+
+---
+
+## 📥 Quick Start
+
+### Linux (One Command)
 ```bash
-wget https://github.com/aboodzkarnh/ATLAS-scanner/raw/main/atlas-scanner-linux
-chmod +x atlas-scanner-linux
-./atlas-scanner-linux
-
-
-Enter your target URL when prompted. Reports are saved in the reports/ folder.
-
-Requirements
-Linux (Kali, Ubuntu, Debian recommended)
-
-64-bit system
-
-No external dependencies required (single binary)
-
-Contact
-For licensing inquiries, subscriptions, or custom payload development:
-
-Telegram: @progragamer2026
-
-
-License
-This software is proprietary. The Community Edition is provided free of charge for trial purposes. Continued use requires a valid license. Redistribution of license keys is strictly prohibited.
-
-Built with Go | Designed for Security Professionals
+wget https://github.com/aboodzkarnh/ATLAS-scanner/raw/main/atlas-scanner-linux -O atlas-scanner && chmod +x atlas-scanner && ./atlas-scanner
