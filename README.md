@@ -18,6 +18,7 @@ Atlas Scanner is not just another vulnerability scanner. It is a **complete ente
 ---
 
 ## ✨ Key Features
+<<<<<<< HEAD
 
 ### 🔍 Comprehensive Vulnerability Detection
 - **250+ signatures** covering OWASP Top 10 and beyond
@@ -115,11 +116,78 @@ Support Channel	@AtlasScannerSupport
 ## 📥 Quick Start
 
 **Linux (One Command):**
+=======
 
+### 🔍 Comprehensive Vulnerability Detection
+- **250+ signatures** covering OWASP Top 10 and beyond
+- SQL Injection (Error-based, Blind, Time-based)
+- Cross-Site Scripting (Reflected, Stored, DOM-based)
+- Local/Remote File Inclusion (LFI/RFI)
+- Server-Side Template Injection (SSTI)
+- Command Injection
+- Cross-Site Request Forgery (CSRF)
+- XML External Entity (XXE)
+- Insecure Direct Object Reference (IDOR)
+- Directory Traversal
+- Open Redirect
+- Server Misconfigurations
+- Exposed Admin Panels
+- Environment File Leaks
+- And many more...
+
+### 🧠 Intelligent Scanning Engine
+- **Smart Crawler**: Automatically discovers all pages, endpoints, and forms on target websites
+- **Authenticated Scanning**: Login to protected areas and scan behind authentication
+- **Confidence Scoring**: Multi-factor analysis filters out false positives before reporting
+- **WAF/IPS Detection & Bypass**: Identifies Cloudflare, AWS WAF, ModSecurity, and provides actionable bypass recommendations
+>>>>>>> 71977b8d6bb11601159d0664d77ab9c799500a61
+
+### 📊 Enterprise Reporting & Analytics
+- **Professional Reports**: JSON, TXT, Markdown, and HTML formats
+- **CVSS 3.1 Scoring**: Industry-standard severity ratings on every finding
+- **Risk Scoring Engine**: Automatic risk assessment for assets
+- **Asset Inventory**: Track all scanned targets with historical data
+- **Web Dashboard**: Visual HTML dashboard with trends and statistics
+- **Exploit Lookup**: Automatic integration with Exploit-DB and NVD for relevant exploits
+
+### ⚡ Performance & Infrastructure
+- **Concurrent Scanning**: Goroutine-powered parallel scanning
+- **Smart Port Scanner**: Automatic detection of web services on 9 common ports
+- **Subdomain Discovery**: Certificate transparency log analysis via crt.sh
+- **Technology Fingerprinting**: Identifies WordPress, PHP, Nginx, Apache, Django, and more
+- **Origin IP Detection**: Helps bypass CDN/WAF by finding the real server IP
+- **Batch Scanning**: Process hundreds of targets from a simple text file
+
+### 🔒 Enterprise Security
+- **Machine-Locked Licensing**: Licenses are bound to hardware, preventing unauthorized sharing
+- **Multi-Tenant Ready**: Architecture supports isolated databases per organization
+- **REST API**: Fully documented API for integration into CI/CD pipelines
+- **OOB Integration**: Ready for Out-of-Band vulnerability detection via Interactsh
+
+---
+
+## 📥 Quick Start
+
+### Linux (One Command)
 ```bash
 wget https://github.com/aboodzkarnh/ATLAS-scanner/raw/main/atlas-scanner-linux -O atlas-scanner && chmod +x atlas-scanner && ./atlas-scanner
+<<<<<<< HEAD
+=======
+macOS
+curl -L https://github.com/aboodzkarnh/ATLAS-scanner/raw/main/atlas-scanner-macos -o atlas-scanner && chmod +x atlas-scanner && ./atlas-scanner
+Windows (PowerShell)
+Invoke-WebRequest -Uri "https://github.com/aboodzkarnh/ATLAS-scanner/raw/main/atlas-scanner-windows.exe" -OutFile "atlas-scanner.exe"; .\atlas-scanner.exe
+Zero dependencies. Single binary. Runs anywhere.
+>>>>>>> 71977b8d6bb11601159d0664d77ab9c799500a61
 
+💳 Subscription Plans
+Plan	Monthly	Annual (Save 25%)	Scans	Key Features
+Basic	$59	$449	50/month	All signatures, TXT/JSON reports, Port Scanner
+Pro	$119	$899	Unlimited	+ WAF Analysis, HTML/Markdown reports, Exploit Lookup, Authenticated Scanning
+Enterprise	$249	$1,999	Unlimited	+ REST API, Batch Scanning, Custom Payloads, Priority Support, Multi-Tenant Ready
+🆓 Free Trial: 3 full-featured scans with all capabilities enabled. No credit card required.
 
+<<<<<<< HEAD
 macOS:
 
 bash
@@ -130,3 +198,31 @@ Windows (PowerShell):
 powershell
 Invoke-WebRequest -Uri "https://github.com/aboodzkarnh/ATLAS-scanner/raw/main/atlas-scanner-windows.exe" -OutFile "atlas-scanner.exe"; .\atlas-scanner.exe
 Zero dependencies. Single binary. Runs anywhere.
+=======
+📊 Enterprise Architecture
+atlas-scanner/
+├── core/          → Configuration & settings management
+├── scanner/       → Core scanning engine
+├── storage/       → Data persistence (SQLite/PostgreSQL adapters)
+├── auth/          → Licensing & authenticated sessions
+├── api/           → REST API for CI/CD integration
+├── evidence/      → Evidence file storage
+├── reports/       → Report generation (JSON/HTML/Markdown)
+├── integrations/  → External services (Interactsh, Exploit-DB, NVD)
+└── docs/          → Complete documentation suite
+📞 Contact & Support
+For licensing inquiries, custom payload development, or enterprise deployments:
+
+Channel	Details
+Telegram	@progragamer2026
+Support Channel	@AtlasScannerSupport
+🔒 License
+This software is proprietary and protected by copyright law. The Community Edition includes a 3-scan free trial for evaluation purposes. Continued use requires a valid subscription license.
+
+License keys are machine-locked and non-transferable. Redistribution, reverse engineering, or unauthorized use is strictly prohibited.
+
+🏆 Trusted by Security Professionals
+Atlas Scanner was built by a security researcher, for security professionals. Every feature is designed based on real-world penetration testing and bug bounty experience. We don't inflate our numbers with false positives. We deliver accuracy, reliability, and trust.
+
+Built with ❤️ using Go | © 2025 Atlas Scanner. All rights reserved.
+>>>>>>> 71977b8d6bb11601159d0664d77ab9c799500a61
