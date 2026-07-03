@@ -94,18 +94,6 @@ Every plan includes **all features** – no restrictions, no hidden limits.
 
 > 🆓 **Free Trial:** 3 full-featured scans with all capabilities enabled. No credit card required.
 
-📊 Enterprise Architecture
-text
-atlas-scanner/
-├── core/          → Configuration & settings management
-├── scanner/       → Core scanning engine
-├── storage/       → Data persistence (SQLite/PostgreSQL adapters)
-├── auth/          → Licensing & authenticated sessions
-├── api/           → REST API for CI/CD integration
-├── evidence/      → Evidence file storage
-├── reports/       → Report generation (JSON/HTML/Markdown)
-├── integrations/  → External services (Interactsh, Exploit-DB, NVD)
-└── docs/          → Complete documentation suite
 📞 Contact & Support
 For licensing inquiries, custom payload development, or enterprise deployments:
 
