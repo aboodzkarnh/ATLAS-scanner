@@ -167,14 +167,16 @@ Built with ❤️ using Go | © 2025 Atlas Scanner. All rights reserved.
 ## 📥 Quick Start
 
 ### Linux (One Command)
-```bash
+
+Linux
+
 wget https://github.com/aboodzkarnh/ATLAS-scanner/raw/main/atlas-scanner-linux -O atlas-scanner && chmod +x atlas-scanner && ./atlas-scanner
-<<<<<<< HEAD
 
 ------------------------------------------------------
 
 
 macOS
+
 curl -L https://github.com/aboodzkarnh/ATLAS-scanner/raw/main/atlas-scanner-macos -o atlas-scanner && chmod +x atlas-scanner && ./atlas-scanner
 
 
@@ -182,7 +184,6 @@ curl -L https://github.com/aboodzkarnh/ATLAS-scanner/raw/main/atlas-scanner-maco
 
 
 Windows (PowerShell)
+
+
 Invoke-WebRequest -Uri "https://github.com/aboodzkarnh/ATLAS-scanner/raw/main/atlas-scanner-windows.exe" -OutFile "atlas-scanner.exe"; .\atlas-scanner.exe
-Zero dependencies. Single binary. Runs anywhere.
-
-
