@@ -1,3 +1,4 @@
+
 # Atlas Scanner V6.5 ELITE
 
 **Enterprise-Grade Web Vulnerability Scanner | Built for Professional Security Teams**
@@ -149,6 +150,18 @@ Support Channel	@AtlasScannerSupport
 - **REST API**: Fully documented API for integration into CI/CD pipelines
 - **OOB Integration**: Ready for Out-of-Band vulnerability detection via Interactsh
 
+
+🔒 License
+This software is proprietary and protected by copyright law. The Community Edition includes a 3-scan free trial for evaluation purposes. Continued use requires a v>
+
+License keys are machine-locked and non-transferable. Redistribution, reverse engineering, or unauthorized use is strictly prohibited.
+
+🏆 Trusted by Security Professionals
+Atlas Scanner was built by a security researcher, for security professionals. Every feature is designed based on real-world penetration testing and bug bounty expe>
+
+Built with ❤️ using Go | © 2025 Atlas Scanner. All rights reserved.
+
+
 ---
 
 ## 📥 Quick Start
@@ -157,45 +170,19 @@ Support Channel	@AtlasScannerSupport
 ```bash
 wget https://github.com/aboodzkarnh/ATLAS-scanner/raw/main/atlas-scanner-linux -O atlas-scanner && chmod +x atlas-scanner && ./atlas-scanner
 <<<<<<< HEAD
-=======
+
+------------------------------------------------------
+
+
 macOS
 curl -L https://github.com/aboodzkarnh/ATLAS-scanner/raw/main/atlas-scanner-macos -o atlas-scanner && chmod +x atlas-scanner && ./atlas-scanner
+
+
+-------------------------------------------------------
+
+
 Windows (PowerShell)
 Invoke-WebRequest -Uri "https://github.com/aboodzkarnh/ATLAS-scanner/raw/main/atlas-scanner-windows.exe" -OutFile "atlas-scanner.exe"; .\atlas-scanner.exe
 Zero dependencies. Single binary. Runs anywhere.
->>>>>>> 71977b8d6bb11601159d0664d77ab9c799500a61
 
-<<<<<<< HEAD
-macOS:
 
-bash
-curl -L https://github.com/aboodzkarnh/ATLAS-scanner/raw/main/atlas-scanner-macos -o atlas-scanner && chmod +x atlas-scanner && ./atlas-scanner
-
-Windows (PowerShell):
-
-powershell
-Invoke-WebRequest -Uri "https://github.com/aboodzkarnh/ATLAS-scanner/raw/main/atlas-scanner-windows.exe" -OutFile "atlas-scanner.exe"; .\atlas-scanner.exe
-Zero dependencies. Single binary. Runs anywhere.
-=======
-📊 Enterprise Architecture
-atlas-scanner/
-├── core/          → Configuration & settings management
-├── scanner/       → Core scanning engine
-├── storage/       → Data persistence (SQLite/PostgreSQL adapters)
-├── auth/          → Licensing & authenticated sessions
-├── api/           → REST API for CI/CD integration
-├── evidence/      → Evidence file storage
-├── reports/       → Report generation (JSON/HTML/Markdown)
-├── integrations/  → External services (Interactsh, Exploit-DB, NVD)
-└── docs/          → Complete documentation suite
-
-🔒 License
-This software is proprietary and protected by copyright law. The Community Edition includes a 3-scan free trial for evaluation purposes. Continued use requires a valid subscription license.
-
-License keys are machine-locked and non-transferable. Redistribution, reverse engineering, or unauthorized use is strictly prohibited.
-
-🏆 Trusted by Security Professionals
-Atlas Scanner was built by a security researcher, for security professionals. Every feature is designed based on real-world penetration testing and bug bounty experience. We don't inflate our numbers with false positives. We deliver accuracy, reliability, and trust.
-
-Built with ❤️ using Go | © 2025 Atlas Scanner. All rights reserved.
->>>>>>> 71977b8d6bb11601159d0664d77ab9c799500a61
