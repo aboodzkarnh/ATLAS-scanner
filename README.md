@@ -111,12 +111,9 @@ For licensing inquiries, custom payload development, or enterprise deployments:
 
 Channel	Details
 Telegram	@progragamer2026
+
 Support Channel	@AtlasScannerSupport
 
-## 📥 Quick Start
-
-**Linux (One Command):**
-=======
 
 ### 🔍 Comprehensive Vulnerability Detection
 - **250+ signatures** covering OWASP Top 10 and beyond
@@ -180,13 +177,6 @@ Invoke-WebRequest -Uri "https://github.com/aboodzkarnh/ATLAS-scanner/raw/main/at
 Zero dependencies. Single binary. Runs anywhere.
 >>>>>>> 71977b8d6bb11601159d0664d77ab9c799500a61
 
-💳 Subscription Plans
-Plan	Monthly	Annual (Save 25%)	Scans	Key Features
-Basic	$59	$449	50/month	All signatures, TXT/JSON reports, Port Scanner
-Pro	$119	$899	Unlimited	+ WAF Analysis, HTML/Markdown reports, Exploit Lookup, Authenticated Scanning
-Enterprise	$249	$1,999	Unlimited	+ REST API, Batch Scanning, Custom Payloads, Priority Support, Multi-Tenant Ready
-🆓 Free Trial: 3 full-featured scans with all capabilities enabled. No credit card required.
-
 <<<<<<< HEAD
 macOS:
 
@@ -210,12 +200,7 @@ atlas-scanner/
 ├── reports/       → Report generation (JSON/HTML/Markdown)
 ├── integrations/  → External services (Interactsh, Exploit-DB, NVD)
 └── docs/          → Complete documentation suite
-📞 Contact & Support
-For licensing inquiries, custom payload development, or enterprise deployments:
 
-Channel	Details
-Telegram	@progragamer2026
-Support Channel	@AtlasScannerSupport
 🔒 License
 This software is proprietary and protected by copyright law. The Community Edition includes a 3-scan free trial for evaluation purposes. Continued use requires a valid subscription license.
 
